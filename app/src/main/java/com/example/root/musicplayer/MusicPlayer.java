@@ -130,6 +130,7 @@ public class MusicPlayer extends Activity {
                     FragmentTransaction playerTransaction = playerManager.beginTransaction();
                     playerTransaction.remove(getFragmentManager().findFragmentByTag(FILEBROWSER_FRAGMENT));
                     playerTransaction.commit();
+                    playerTransaction.commit();
                 }
                 break;
         }
