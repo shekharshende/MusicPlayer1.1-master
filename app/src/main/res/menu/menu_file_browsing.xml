@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".FileBrowsing">
+    <item
+        android:id="@+id/gotoList"
+        android:icon="@drawable/ic_playlist"
+        android:showAsAction="always"
+        android:title="@string/action_settings"></item>
+    <item
+        android:id="@+id/fileOpen"
+        android:icon="@drawable/ic_action_folder_open"
+        android:showAsAction="always"
+        android:title="@string/action_settings" />
+    <item
+        android:id="@+id/gotoPlay"
+        android:icon="@drawable/ic_songicon"
+        android:showAsAction="always"
+        android:title="@string/action_settings" />
+
+    <item
+        android:id="@+id/addToPlaylist"
+        android:icon="@drawable/ic_add_songs"
+        android:showAsAction="always"
+        android:title="@string/action_settings" />
+
+
+</menu>
+
